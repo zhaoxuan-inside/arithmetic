@@ -1,7 +1,6 @@
 package leetcode;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  *
@@ -15,11 +14,64 @@ import java.util.List;
  *
  */
 public class topic_0018 {
-    public List<List<Integer>> fourSum(int[] nums, int target) {
+    public static List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
 
+        Set<List<Integer>> result = new HashSet<>();
 
+        for (int first = 0; first < nums.length - 3; first++) {
+            for (int second = first + 1; second < nums.length - 2; second++) {
+                int firstNum = nums[first];
+                int secondNum = nums[second];
 
-        return null;
+                int pre = second + 1;
+                int last = nums.length - 1;
+
+                while (pre < last){
+                    int preNum = nums[pre];
+                    int lastNum = nums[last];
+
+                    long sum = (long) firstNum + secondNum + preNum + lastNum;
+
+                    if (sum - target == 0){
+                        List<Integer> tmp = new ArrayList<>();
+                        tmp.add(firstNum);
+                        tmp.add(secondNum);
+                        tmp.add(preNum);
+                        tmp.add(lastNum);
+
+                        result.add(tmp);
+
+                        pre++;
+                        last--;
+                        continue;
+                    }
+
+                    if (sum - target > 0){
+                        last--;
+                    } else {
+                        pre++;
+                    }
+
+                }
+            }
+        }
+
+        return new ArrayList<>(result);
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1000000000,1000000000,1000000000,1000000000};
+        List<List<Integer>> lists = fourSum(nums, -294967296);
+
+        for (List<Integer> list : lists) {
+            for (Integer integer : list) {
+                System.out.print(integer);
+            }
+
+            System.out.println();
+        }
+
+//        System.out.println(1000000000L + 1000000000 + 1000000000 + 1000000000);
     }
 }
