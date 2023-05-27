@@ -1,17 +1,8 @@
 package every_day_topic;
 
-/**
- * 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
- */
-public class topic_0019 {
+import data_structure.ListNode;
 
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
+public class topic_0019 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null){
@@ -40,7 +31,9 @@ public class topic_0019 {
             return pre.next;
         }
 
-        pre.next = pre.next.next;
+        if (pre.next != null) {
+            pre.next = pre.next.next;
+        }
         return head;
     }
 

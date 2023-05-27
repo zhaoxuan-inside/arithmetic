@@ -1,13 +1,9 @@
 package every_day_topic;
 
+import data_structure.ListNode;
+
+@SuppressWarnings("unused")
 public class topic_0021 {
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode();

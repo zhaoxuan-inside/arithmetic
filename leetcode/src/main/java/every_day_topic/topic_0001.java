@@ -3,6 +3,7 @@ package every_day_topic;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class topic_0001 {
 
     public static int[] twoSum(int[] nums, int target) {
@@ -24,14 +25,6 @@ public class topic_0001 {
         }
 
         return new int[]{-1, -1};
-
-    }
-
-    public static void main(String[] args) {
-
-        for (int num : twoSum(new int[]{2, 7, 11, 15}, 9)) {
-            System.out.println(num);
-        }
 
     }
 

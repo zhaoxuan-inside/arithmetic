@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0010 {
     public boolean isMatch(String s, String p) {
 
@@ -40,6 +41,9 @@ public class topic_0010 {
                 }
             }
         }
+
         return dp[stringLength][patternLength];
+
     }
+
 }
