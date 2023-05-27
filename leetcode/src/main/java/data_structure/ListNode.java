@@ -1,5 +1,6 @@
 package data_structure;
 
+@SuppressWarnings("unused")
 public class ListNode {
     public int val;
     public ListNode next;

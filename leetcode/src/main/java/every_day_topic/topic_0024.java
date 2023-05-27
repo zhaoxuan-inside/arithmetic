@@ -2,6 +2,7 @@ package every_day_topic;
 
 import data_structure.ListNode;
 
+@SuppressWarnings("unused")
 public class topic_0024 {
 
     public ListNode swapPairs(ListNode head) {

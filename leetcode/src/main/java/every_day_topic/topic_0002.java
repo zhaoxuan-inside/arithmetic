@@ -11,7 +11,7 @@ public class topic_0002 {
 
         ListNode head = new ListNode();
         ListNode last = head;
-        int add = 0;
+        int add;
 
         while (l1 != null || l2 != null) {
 
