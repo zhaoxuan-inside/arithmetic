@@ -1,6 +1,6 @@
 package every_day_topic;
 
-import data_structure.TreeNode;
+import data_structure.BTreeNode;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -8,13 +8,13 @@ import java.util.stream.Collectors;
 @SuppressWarnings("unused")
 public class topic_1110 {
 
-    public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
+    public List<BTreeNode> delNodes(BTreeNode root, int[] to_delete) {
 
-        List<TreeNode> result = new ArrayList<>();
+        List<BTreeNode> result = new ArrayList<>();
 
         Set<Integer> toDelete = Arrays.stream(to_delete).boxed().collect(Collectors.toSet());
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<BTreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
         if (!toDelete.contains(root.val)) {
@@ -23,7 +23,7 @@ public class topic_1110 {
 
         while (!queue.isEmpty()) {
 
-            TreeNode curr = queue.poll();
+            BTreeNode curr = queue.poll();
 
             if (curr.left != null)
                 queue.offer(curr.left);

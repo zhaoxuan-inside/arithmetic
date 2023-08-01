@@ -1,18 +1,18 @@
 package every_day_topic;
 
-import data_structure.TreeNode;
+import data_structure.BTreeNode;
 
 @SuppressWarnings("unused")
 public class topic_0979 {
 
     private int ans = 0;
 
-    public int distributeCoins(TreeNode root) {
+    public int distributeCoins(BTreeNode root) {
         lrd(root);
         return ans;
     }
 
-    public int lrd(TreeNode root) {
+    public int lrd(BTreeNode root) {
 
         if (root == null) {
             return 0;
