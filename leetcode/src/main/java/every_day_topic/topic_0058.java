@@ -8,10 +8,10 @@ public class topic_0058 {
 
         s = s.trim();
         int i = s.lastIndexOf(' ');
-        return s.substring(i + 1, s.length()).length();
+        return s.substring(i + 1).length();
     }
 
     public static void main(String[] args) {
-        System.out.println(lengthOfLastWord("a"));
+        System.out.println(lengthOfLastWord("a bc ddd"));
     }
 }
