@@ -1,11 +1,12 @@
 package every_day_topic;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class topic_0056 {
     public static int[][] merge(int[][] intervals) {
 
-        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
         int curr = 0;
         int scan = 1;
