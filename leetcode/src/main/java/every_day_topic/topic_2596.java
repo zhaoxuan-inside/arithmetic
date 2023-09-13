@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_2596 {
     public static boolean checkValidGrid(int[][] grid) {
 
@@ -81,10 +82,10 @@ public class topic_2596 {
     public static void main(String[] args) {
         checkValidGrid(new int[][]{
                 {24, 11, 22, 17, 4},
-                {21, 16, 5 , 12, 9},
-                {6 , 23, 10, 3 , 18},
-                {15, 20, 1 , 8 , 13},
-                {0 , 7 , 14, 19, 2}
+                {21, 16, 5, 12, 9},
+                {6, 23, 10, 3, 18},
+                {15, 20, 1, 8, 13},
+                {0, 7, 14, 19, 2}
         });
     }
 }

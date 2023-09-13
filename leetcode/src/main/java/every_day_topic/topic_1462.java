@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_1462 {
     private static Map<Integer, List<Integer>> PRE_RELATION;
 
