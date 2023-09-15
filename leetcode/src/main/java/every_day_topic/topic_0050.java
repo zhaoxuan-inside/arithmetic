@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0050 {
     public int giveGem(int[] gem, int[][] operations) {
 
