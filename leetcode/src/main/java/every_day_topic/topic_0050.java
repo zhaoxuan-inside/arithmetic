@@ -1,7 +1,5 @@
 package every_day_topic;
 
-import java.util.Arrays;
-
 public class topic_0050 {
     public int giveGem(int[] gem, int[][] operations) {
 
