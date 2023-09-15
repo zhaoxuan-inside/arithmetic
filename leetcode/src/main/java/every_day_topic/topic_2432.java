@@ -3,6 +3,7 @@ package every_day_topic;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class topic_2432 {
     public static int hardestWorker(int n, int[][] logs) {
         int maxTime = Integer.MIN_VALUE;
