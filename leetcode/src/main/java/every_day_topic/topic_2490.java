@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2490 {
     public boolean isCircularSentence(String sentence) {
         String[] split = sentence.split(" ");
