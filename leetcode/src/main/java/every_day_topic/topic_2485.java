@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2485 {
     public int pivotInteger(int n) {
 

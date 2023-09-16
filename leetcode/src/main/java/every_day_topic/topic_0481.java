@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0481 {
     public int magicalString(int n) {
         if (n < 4) {
