@@ -20,19 +20,17 @@ public class topic_0083 {
         }
     }
 
-    class Solution {
-        public ListNode deleteDuplicates(ListNode head) {
-            ListNode curr = head;
-            while (curr != null && curr.next != null) {
-                ListNode pre = curr.next;
-                if (curr.val == pre.val) {
-                    curr.next = pre.next;
-                } else {
-                    curr = pre;
-                }
+    public ListNode deleteDuplicates(ListNode head) {
+        ListNode curr = head;
+        while (curr != null && curr.next != null) {
+            ListNode pre = curr.next;
+            if (curr.val == pre.val) {
+                curr.next = pre.next;
+            } else {
+                curr = pre;
             }
-            return head;
         }
+        return head;
     }
 
 }
