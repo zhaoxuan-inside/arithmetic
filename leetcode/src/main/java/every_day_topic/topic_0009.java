@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0009 {
     public boolean isPalindrome(int x) {
         char[] charArray = String.valueOf(x).toCharArray();
