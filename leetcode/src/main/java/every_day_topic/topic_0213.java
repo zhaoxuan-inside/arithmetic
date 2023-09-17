@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0213 {
     public int rob(int[] nums) {
         int length = nums.length;
