@@ -1,8 +1,5 @@
 package every_day_topic;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
-
 @SuppressWarnings("unused")
 public class topic_0104 {
 
