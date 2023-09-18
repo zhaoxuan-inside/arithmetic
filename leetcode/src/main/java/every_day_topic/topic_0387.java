@@ -1,7 +1,5 @@
 package every_day_topic;
 
-import java.util.*;
-
 @SuppressWarnings("unused")
 public class topic_0387 {
     public int firstUniqChar(String s) {
