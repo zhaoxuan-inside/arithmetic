@@ -14,6 +14,6 @@ public class topic_2562 {
             end--;
         }
 
-        return result += ((start == end) ? nums[start] : 0);
+        return result + ((start == end) ? nums[start] : 0);
     }
 }
