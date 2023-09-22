@@ -19,8 +19,4 @@ public class topic_2535 {
         return Math.abs(sum - bitSum);
     }
 
-    public static void main(String[] args) {
-        differenceOfSum(new int[]{1,15,6,3});
-    }
-
 }

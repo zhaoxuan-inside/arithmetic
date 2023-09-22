@@ -29,8 +29,4 @@ public class topic_2591 {
 
     }
 
-    public static void main(String[] args) {
-        distMoney(17, 2);
-    }
-
 }

@@ -38,7 +38,4 @@ public class topic_2506 {
         return result;
     }
 
-    public static void main(String[] args) {
-        similarPairs(new String[]{"aba", "aabb", "abcd", "bac", "aabc"});
-    }
 }

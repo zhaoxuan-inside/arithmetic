@@ -19,8 +19,4 @@ public class topic_2515 {
         return -1;
     }
 
-    public static void main(String[] args) {
-        closetTarget(new String[]{"pgmiltbptl","jnkxwutznb","bmeirwjars","ugzyaufzzp","pgmiltbptl","sfhtxkmzwn","pgmiltbptl","pgmiltbptl","onvmgvjhxa","jyzdtwbwqp"},
-                "pgmiltbptl", 4);
-    }
 }

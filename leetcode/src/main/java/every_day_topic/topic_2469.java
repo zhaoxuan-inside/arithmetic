@@ -15,11 +15,11 @@ package every_day_topic;
 @SuppressWarnings("unused")
 public class topic_2469 {
 
-    private final static double[] ans = new double[2];
+    private final static double[] ANS = new double[2];
 
     public double[] convertTemperature(double celsius) {
-        ans[0] = celsius + 273.15;
-        ans[1] = celsius * 1.80 + 32.00;
-        return ans;
+        ANS[0] = celsius + 273.15;
+        ANS[1] = celsius * 1.80 + 32.00;
+        return ANS;
     }
 }
