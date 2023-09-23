@@ -1,8 +1,7 @@
 package every_day_topic;
 
-import sun.nio.cs.ext.MacHebrew;
-
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @SuppressWarnings("unused")
 public class topic_2441 {
