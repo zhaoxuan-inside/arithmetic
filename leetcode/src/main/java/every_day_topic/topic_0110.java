@@ -3,7 +3,7 @@ package every_day_topic;
 @SuppressWarnings("unused")
 public class topic_0110 {
 
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

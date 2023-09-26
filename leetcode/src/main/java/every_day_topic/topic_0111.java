@@ -6,7 +6,7 @@ import java.util.List;
 @SuppressWarnings("unused")
 public class topic_0111 {
 
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -33,11 +33,11 @@ public class topic_0111 {
         int left = minDepth(root.left);
         int right = minDepth(root.right);
         if (left == 0) {
-            return right+1;
+            return right + 1;
         } else if (right == 0) {
-            return left+1;
+            return left + 1;
         } else {
-            return Math.min(left, right)+1;
+            return Math.min(left, right) + 1;
         }
     }
 
@@ -71,8 +71,5 @@ public class topic_0111 {
 
         return 0;
     }
-
-
-
 
 }
