@@ -24,8 +24,4 @@ public class topic_0190 {
         return ans;
     }
 
-    public static void main(String[] args) {
-        reverseBits(4294967293L);
-    }
-
 }

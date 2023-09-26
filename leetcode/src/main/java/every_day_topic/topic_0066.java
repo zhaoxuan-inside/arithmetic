@@ -3,7 +3,7 @@ package every_day_topic;
 @SuppressWarnings("unused")
 public class topic_0066 {
     public static int[] plusOne(int[] digits) {
-        int bit = 0;
+        int bit;
         int last = digits[digits.length - 1] + 1;
         bit = last / 10;
         digits[digits.length - 1] = last % 10;
@@ -20,11 +20,6 @@ public class topic_0066 {
         }
 
         return digits;
-    }
-
-    public static void main(String[] args) {
-//        plusOne(new int[]{1, 2, 3});
-        plusOne(new int[]{8, 9, 9, 9});
     }
 
 }

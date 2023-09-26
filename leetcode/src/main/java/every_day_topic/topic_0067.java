@@ -10,7 +10,7 @@ public class topic_0067 {
         String shorter = a.length() > b.length() ? b : a;
         int length = shorter.length() - 1;
 
-        int index = 0;
+        int index;
         for (index = 0; index < longer.length(); index++) {
 
             int curr = (longer.charAt(longer.length() - 1 - index) - '0') + bit;
@@ -28,7 +28,4 @@ public class topic_0067 {
 
     }
 
-    public static void main(String[] args) {
-        addBinary("11", "1");
-    }
 }
