@@ -3,8 +3,8 @@ package every_day_topic;
 @SuppressWarnings("unused")
 public class topic_1662 {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
-        int word1Index = 0;
-        int word2Index = 0;
+        int word1Index;
+        int word2Index;
 
         int word1CharIndex = 0;
         int word2CharIndex = 0;
