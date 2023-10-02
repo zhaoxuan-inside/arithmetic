@@ -2,21 +2,30 @@ package every_day_topic;
 
 @SuppressWarnings("unused")
 public class topic_0050 {
-    public int giveGem(int[] gem, int[][] operations) {
-
-        for (int[] operation : operations) {
-            int swap = gem[operation[0]] / 2;
-            gem[operation[0]] -= swap;
-            gem[operation[1]] += swap;
+    public double myPow(double x, int n) {
+        if (x == 0) {
+            return 0;
         }
 
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        for (int num : gem) {
-            min = Math.min(min, num);
-            max = Math.max(max, num);
+        if (x > 0) {
+            return Math.exp(Math.log(x) * n);
+        } else {
+            int ans = 1;
+            for (int i = 0; i < n; i++) {
+                ans *= x;
+            }
+            return ans;
         }
+    }
 
-        return max - min;
+    public double faster(double x, int n) {
+        double ans = 1.0;
+        for (int i = n; i != 0; i /= 2) {
+            if (i % 2 != 0) {
+                ans *= x;
+            }
+            x = x * x;
+        }
+        return n < 0 ? 1 / ans : ans;
     }
 }
