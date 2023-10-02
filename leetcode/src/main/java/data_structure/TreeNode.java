@@ -1,17 +1,21 @@
 package data_structure;
 
-import java.util.List;
-
 @SuppressWarnings("unused")
-public class TreeNode {
+public class BTreeNode {
     public int val;
-    public List<TreeNode> children;
+    public BTreeNode left;
+    public BTreeNode right;
 
-    public TreeNode() {
+    public BTreeNode() {
     }
 
-    public TreeNode(int val) {
+    public BTreeNode(int val) {
         this.val = val;
     }
 
+    public BTreeNode(int val, BTreeNode left, BTreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
 }

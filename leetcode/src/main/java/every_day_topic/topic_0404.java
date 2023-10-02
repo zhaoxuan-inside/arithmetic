@@ -1,26 +1,10 @@
 package every_day_topic;
 
+import data_structure.TreeNode;
+
+
 @SuppressWarnings("unused")
 public class topic_0404 {
-
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     public int sumOfLeftLeaves(TreeNode root) {
         return isLeaf(root) ? 0 : accumulateLeftLeaf(root);

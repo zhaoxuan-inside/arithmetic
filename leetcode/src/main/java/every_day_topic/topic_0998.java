@@ -1,28 +1,12 @@
 package every_day_topic;
 
+import data_structure.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("unused")
 public class topic_0998 {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
     private List<Integer> nums;
 
