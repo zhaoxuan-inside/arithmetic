@@ -1,19 +1,19 @@
 package data_structure;
 
 @SuppressWarnings("unused")
-public class BTreeNode {
+public class TreeNode {
     public int val;
-    public BTreeNode left;
-    public BTreeNode right;
+    public TreeNode left;
+    public TreeNode right;
 
-    public BTreeNode() {
+    public TreeNode() {
     }
 
-    public BTreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
-    public BTreeNode(int val, BTreeNode left, BTreeNode right) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
