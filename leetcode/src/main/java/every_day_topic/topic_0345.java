@@ -3,7 +3,7 @@ package every_day_topic;
 import java.util.*;
 
 @SuppressWarnings("unused")
-public class topic_345 {
+public class topic_0345 {
     public String reverseVowels(String s) {
 
         Set<Character> vowels = new HashSet<>();

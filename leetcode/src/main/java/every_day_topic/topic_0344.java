@@ -1,7 +1,7 @@
 package every_day_topic;
 
 @SuppressWarnings("unused")
-public class topic_344 {
+public class topic_0344 {
     public void reverseString(char[] s) {
         int len = s.length;
 
