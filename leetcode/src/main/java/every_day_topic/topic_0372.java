@@ -25,7 +25,4 @@ public class topic_0372 {
         return ans;
     }
 
-    public static void main(String[] args) {
-        superPow(2147483647, new int[]{2, 0, 0});
-    }
 }
