@@ -30,7 +30,4 @@ public class topic_0680 {
         return true;
     }
 
-    public static void main(String[] args) {
-        validPalindrome("abc");
-    }
 }
