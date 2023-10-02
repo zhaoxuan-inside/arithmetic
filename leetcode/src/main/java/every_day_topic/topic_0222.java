@@ -2,36 +2,18 @@ package every_day_topic;
 
 import data_structure.TreeNode;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 @SuppressWarnings("unused")
 public class topic_0222 {
+    int i = 0;
+
     public int countNodes(TreeNode root) {
         if (root == null) {
-            return 0;
+            return i;
         }
-
-        Queue<TreeNode> queue = new ArrayDeque<>();
-        queue.offer(root);
-        int ans = 1;
-
-        while (!queue.isEmpty()) {
-            Queue<TreeNode> tmp = new ArrayDeque<>();
-            while (!queue.isEmpty()) {
-                TreeNode poll = queue.poll();
-                if (poll.left != null) {
-                    tmp.offer(poll.left);
-                    ans++;
-                }
-                if (poll.right != null) {
-                    tmp.offer(poll.right);
-                    ans++;
-                }
-            }
-            queue.addAll(tmp);
-        }
-
-        return ans;
+        countNodes(root.left);
+        i++;
+        countNodes(root.right);
+        return i;
     }
+
 }
