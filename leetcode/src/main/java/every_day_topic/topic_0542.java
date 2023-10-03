@@ -11,7 +11,7 @@ public class topic_0542 {
         int m = matrix.length, n = matrix[0].length;
         int[][] dist = new int[m][n];
         boolean[][] seen = new boolean[m][n];
-        Queue<int[]> queue = new LinkedList<int[]>();
+        Queue<int[]> queue = new LinkedList<>();
         // 将所有的 0 添加进初始队列中
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {
