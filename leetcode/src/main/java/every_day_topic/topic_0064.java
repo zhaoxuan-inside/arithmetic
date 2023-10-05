@@ -53,7 +53,4 @@ public class topic_0064 {
         }
     }
 
-    public static void main(String[] args) {
-        minPathSum(new int[][]{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}});
-    }
 }
