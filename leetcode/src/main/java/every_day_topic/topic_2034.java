@@ -5,7 +5,7 @@ import java.util.*;
 @SuppressWarnings("unused")
 public class topic_2034 {
 
-    class Stock {
+    static class Stock {
         public int timestamp;
         public int price;
 
@@ -15,7 +15,7 @@ public class topic_2034 {
         }
     }
 
-    class StockPrice {
+    static class StockPrice {
 
         private final SortedSet<Integer> timestamps = new TreeSet<>();
         private final SortedSet<Integer> prices = new TreeSet<>();
