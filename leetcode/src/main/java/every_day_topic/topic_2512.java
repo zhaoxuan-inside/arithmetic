@@ -47,13 +47,4 @@ public class topic_2512 {
 
     }
 
-    public static void main(String[] args) {
-        topStudents(
-                new String[]{"smart", "brilliant", "studious"},
-                new String[]{"not"},
-                new String[]{"this student is not studious", "the student is smart"},
-                new int[]{1, 2},
-                2
-        );
-    }
 }
