@@ -91,8 +91,8 @@ public class topic_2731 {
             }
             Arrays.sort(pos);
             long res = 0;
-            for (int i = 1; i < length; i++) {
-                res += (pos[i] - pos[i - 1]) * i % MOD * (length - i) % MOD;
+            for (int index = 1; index < length; index++) {
+                res += (pos[index] - pos[index - 1]) * index % MOD * (length - index) % MOD;
                 res %= MOD;
             }
             return (int) res;
