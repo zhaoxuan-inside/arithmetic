@@ -23,6 +23,7 @@ import java.util.Map;
  * C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
  * 给定一个罗马数字，将其转换成整数。
  */
+@SuppressWarnings("unused")
 public class topic_0013 {
     Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {{
         put('I', 1);

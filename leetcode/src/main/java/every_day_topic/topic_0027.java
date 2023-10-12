@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0027 {
     public static int removeElement(int[] nums, int val) {
 

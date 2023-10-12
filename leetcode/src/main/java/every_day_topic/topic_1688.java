@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_1688 {
     public static int numberOfMatches(int n) {
 

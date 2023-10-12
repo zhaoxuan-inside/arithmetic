@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0198 {
     public static int rob(int[] nums) {
         int[] mem = new int[nums.length];

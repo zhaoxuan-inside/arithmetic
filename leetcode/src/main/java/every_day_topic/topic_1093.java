@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+@SuppressWarnings("unused")
 public class topic_1093 {
 
     public static double[] sampleStats(int[] count) {

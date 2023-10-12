@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_1446 {
     public static int maxPower(String s) {
         int max = 1;

@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0070 {
     public static int climbStairs(int n) {
         return types(n);

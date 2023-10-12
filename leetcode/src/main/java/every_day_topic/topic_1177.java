@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_1177 {
 
     public static List<Boolean> canMakePaliQueries(String s, int[][] queries) {

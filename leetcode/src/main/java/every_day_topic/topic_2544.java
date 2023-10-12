@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2544 {
     public static int alternateDigitSum(int n) {
 

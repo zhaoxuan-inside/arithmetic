@@ -16,10 +16,11 @@ public class topic_2517 {
 
             int mid = left + (avgGap - left) / 2;
 
-            if (f(price, mid) >= k)
+            if (f(price, mid) >= k) {
                 left = mid;
-            else
+            } else {
                 avgGap = mid;
+            }
 
         }
 

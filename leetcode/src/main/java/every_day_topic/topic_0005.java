@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0005 {
     public static String longestPalindrome(String s) {
         char[] charArray = s.toCharArray();

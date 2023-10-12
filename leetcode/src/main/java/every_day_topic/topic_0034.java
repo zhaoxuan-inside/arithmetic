@@ -7,6 +7,7 @@ package every_day_topic;
  * <p>
  * 你必须设计并实现时间复杂度为 O(log n) 的算法解决此问题。
  */
+@SuppressWarnings("unused")
 public class topic_0034 {
     public static int[] searchRange(int[] nums, int target) {
 

@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_2050 {
 
     public static int minimumTime(int n, int[][] relations, int[] time) {

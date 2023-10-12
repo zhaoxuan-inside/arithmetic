@@ -3,6 +3,7 @@ package every_day_topic;
 import java.util.HashSet;
 import java.util.Set;
 
+@SuppressWarnings("unused")
 public class topic_0073 {
 
     public static void setZeroes(int[][] matrix) {

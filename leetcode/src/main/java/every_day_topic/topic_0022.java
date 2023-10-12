@@ -3,22 +3,23 @@ package every_day_topic;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class topic_0022 {
 
     static List<String> res = new ArrayList<>();
 
     public static List<String> generateParenthesis(int n) {
         if (n <= 0) {
-            return results;
+            return RESULT;
         }
         getParenthesis("", n, n);
-        return results;
+        return RESULT;
     }
 
     private static void getParenthesis(String str, int leftRemain, int rightRemain) {
         // 退出递归
         if (leftRemain == 0 && rightRemain == 0) {
-            results.add(str);
+            RESULT.add(str);
             return;
         }
 
@@ -36,20 +37,20 @@ public class topic_0022 {
         }
     }
 
-    private static List<String> results = new ArrayList<>();
+    private static final List<String> RESULT = new ArrayList<>();
 
     public static List<String> generateParenthesis2(int n) {
         if (n <= 0){
-            return results;
+            return RESULT;
         }
         generate("", n, n);
-        return results;
+        return RESULT;
     }
 
     private static void generate(String result, int leftRemain, int rightRemain) {
 
         if (leftRemain == 0 && rightRemain == 0) {
-            results.add(result);
+            RESULT.add(result);
             return;
         }
 

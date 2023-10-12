@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_0630 {
     public static int scheduleCourse(int[][] courses) {
         Arrays.sort(courses, Comparator.comparingInt(course -> course[1]));

@@ -3,6 +3,7 @@ package every_day_topic;
 import java.util.Arrays;
 import java.util.Comparator;
 
+@SuppressWarnings("unused")
 public class topic_0056 {
     public static int[][] merge(int[][] intervals) {
 

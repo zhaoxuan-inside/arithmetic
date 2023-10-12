@@ -62,7 +62,7 @@ public class topic_0057 {
         int left = newInterval[0];
         int right = newInterval[1];
         boolean placed = false;
-        List<int[]> ansList = new ArrayList<int[]>();
+        List<int[]> ansList = new ArrayList<>();
         for (int[] interval : intervals) {
             if (interval[0] > right) {
                 // 在插入区间的右侧且无交集

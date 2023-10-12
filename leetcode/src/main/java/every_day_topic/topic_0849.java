@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0849 {
     public static int maxDistToClosest(int[] seats) {
         int max = 0;

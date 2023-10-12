@@ -3,6 +3,7 @@ package every_day_topic;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class topic_0118 {
 
     public static List<List<Integer>> generate(int numRows) {

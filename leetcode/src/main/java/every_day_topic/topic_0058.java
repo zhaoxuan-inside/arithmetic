@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_0058 {
     public static int lengthOfLastWord(String s) {
         if (null == s || 0 == s.length()) {

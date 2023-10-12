@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_1267 {
     public static int countServers(int[][] grid) {
         boolean[] canConn = new boolean[grid.length];

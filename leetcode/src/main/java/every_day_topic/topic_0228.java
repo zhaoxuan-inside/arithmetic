@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_0228 {
     public static List<String> summaryRanges(int[] nums) {
 

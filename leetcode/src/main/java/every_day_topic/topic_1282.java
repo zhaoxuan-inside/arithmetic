@@ -2,6 +2,7 @@ package every_day_topic;
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class topic_1282 {
     public static List<List<Integer>> groupThePeople(int[] groupSizes) {
 
@@ -11,11 +12,7 @@ public class topic_1282 {
 
         for (int index = 0; index < groupSizes.length; index++) {
             int groupSize = groupSizes[index];
-            List<List<Integer>> groupPeople = map.get(groupSize);
-            if (groupPeople == null) {
-                groupPeople = new ArrayList<>();
-                map.put(groupSize, groupPeople);
-            }
+            List<List<Integer>> groupPeople = map.computeIfAbsent(groupSize, k -> new ArrayList<>());
 
             List<Integer> subGroup = null;
             for (List<Integer> groupPerson : groupPeople) {

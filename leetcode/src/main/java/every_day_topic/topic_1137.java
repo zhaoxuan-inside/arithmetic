@@ -1,8 +1,9 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_1137 {
 
-    private static final int num = (int) Math.pow(2, 32) - 1;
+    private static final int NUM = (int) Math.pow(2, 32) - 1;
 
     public static int tribonacci(int n) {
 
@@ -11,7 +12,6 @@ public class topic_1137 {
                 case 0 :
                     return 0;
                 case 1 :
-                    return 1;
                 case 2:
                     return 1;
             }

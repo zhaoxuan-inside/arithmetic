@@ -7,9 +7,9 @@ public class topic_0146 {
 
     private static class LRUCache {
 
-        private Map<Integer, Integer> cache;
-        private int length = 0;
-        private Queue<Integer> TIMESTAMP;
+        private final Map<Integer, Integer> cache;
+        private final int length;
+        private final Queue<Integer> TIMESTAMP;
 
         public LRUCache(int capacity) {
             cache = new HashMap<>(capacity);
