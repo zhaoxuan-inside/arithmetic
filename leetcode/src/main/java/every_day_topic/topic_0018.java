@@ -60,18 +60,4 @@ public class topic_0018 {
         return new ArrayList<>(result);
     }
 
-    public static void main(String[] args) {
-        int[] nums = {1000000000,1000000000,1000000000,1000000000};
-        List<List<Integer>> lists = fourSum(nums, -294967296);
-
-        for (List<Integer> list : lists) {
-            for (Integer integer : list) {
-                System.out.print(integer);
-            }
-
-            System.out.println();
-        }
-
-//        System.out.println(1000000000L + 1000000000 + 1000000000 + 1000000000);
-    }
 }

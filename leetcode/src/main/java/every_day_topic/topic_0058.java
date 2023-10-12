@@ -11,7 +11,4 @@ public class topic_0058 {
         return s.substring(i + 1).length();
     }
 
-    public static void main(String[] args) {
-        System.out.println(lengthOfLastWord("a bc ddd"));
-    }
 }

@@ -15,7 +15,4 @@ public class topic_0198 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(rob(new int[]{1, 2}));
-    }
 }

@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2511 {
     public static int captureForts(int[] forts) {
         int max = 0;
@@ -19,7 +20,4 @@ public class topic_2511 {
         return max;
     }
 
-    public static void main(String[] args) {
-        System.out.println(captureForts(new int[]{1, 0, 0, -1, 0, 0, -1, 0, 0, 1}));
-    }
 }

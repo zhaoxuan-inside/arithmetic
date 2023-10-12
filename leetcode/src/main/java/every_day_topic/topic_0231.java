@@ -13,8 +13,4 @@ public class topic_0231 {
         return n == 1;
     }
 
-    public static void main(String[] args) {
-        System.out.println(isPowerOfTwo(1));
-    }
-
 }

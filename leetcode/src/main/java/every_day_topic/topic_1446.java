@@ -23,7 +23,4 @@ public class topic_1446 {
         return max;
     }
 
-    public static void main(String[] args) {
-        System.out.println(maxPower("leetcode"));
-    }
 }

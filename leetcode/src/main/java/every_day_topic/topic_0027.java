@@ -17,7 +17,4 @@ public class topic_0027 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(removeElement(new int[]{1}, 1));
-    }
 }

@@ -3,6 +3,7 @@ package every_day_topic;
 import java.util.HashMap;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class topic_2404 {
     public static int mostFrequentEven(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -34,7 +35,4 @@ public class topic_2404 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(mostFrequentEven(new int[]{2, 10000, 10000, 10000, 2}));
-    }
 }

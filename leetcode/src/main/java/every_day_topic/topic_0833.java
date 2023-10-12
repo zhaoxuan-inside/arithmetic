@@ -60,13 +60,4 @@ public class topic_0833 {
         return true;
     }
 
-    public static void main(String[] args) {
-        System.out.println(findReplaceString(
-                "abcd",
-                new int[]{0, 2},
-                new String[]{"a", "cd"},
-                new String[]{"eee", "ffff"}
-        ));
-    }
-
 }

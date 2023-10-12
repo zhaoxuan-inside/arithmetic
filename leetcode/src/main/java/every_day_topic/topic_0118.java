@@ -30,8 +30,4 @@ public class topic_0118 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(generate(10));
-    }
-
 }

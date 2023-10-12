@@ -22,8 +22,4 @@ public class topic_1688 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(numberOfMatches(14));
-    }
-
 }

@@ -48,8 +48,4 @@ public class topic_1130 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(mctFromLeafValues(new int[]{4, 11, 8, 3, 9, 1}));
-    }
-
 }

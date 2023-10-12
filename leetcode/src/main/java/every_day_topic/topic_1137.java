@@ -43,9 +43,4 @@ public class topic_1137 {
 
     }
 
-
-    public static void main(String[] args) {
-        System.out.println(batter(25));
-    }
-
 }

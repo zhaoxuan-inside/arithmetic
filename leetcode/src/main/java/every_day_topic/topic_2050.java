@@ -63,24 +63,4 @@ public class topic_2050 {
 
     }
 
-    public static void main(String[] args) {
-
-        int[][] relations = new int[2][2];
-        relations[0] = new int[2];
-        relations[0][0] = 1;
-        relations[0][1] = 3;
-
-        relations[1] = new int[2];
-        relations[1][0] = 2;
-        relations[1][1] = 3;
-
-        int[] times = new int[3];
-        times[0] = 3;
-        times[1] = 2;
-        times[2] = 5;
-
-        minimumTime(3, relations, times);
-
-    }
-
 }

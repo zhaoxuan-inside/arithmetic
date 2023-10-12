@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2682 {
     public static int[] circularGameLosers(int n, int k) {
         boolean[] bool = new boolean[n];
@@ -24,9 +25,4 @@ public class topic_2682 {
         return result;
     }
 
-    public static void main(String[] args) {
-        for (int i : circularGameLosers(4, 4)) {
-            System.out.println(i);
-        }
-    }
 }

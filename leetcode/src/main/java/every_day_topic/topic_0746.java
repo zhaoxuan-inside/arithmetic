@@ -13,7 +13,4 @@ public class topic_0746 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
-    }
 }

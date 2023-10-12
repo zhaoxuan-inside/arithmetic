@@ -38,13 +38,4 @@ public class topic_1177 {
 
     }
 
-    public static void main(String[] args) {
-
-        for (Boolean state : canMakePaliQueries("pqtadspgvinafefk",
-                new int[][]{{1, 14, 5}, {14, 15, 1}, {15, 15, 1}})) {
-            System.out.println(state);
-
-        }
-    }
-
 }

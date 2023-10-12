@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2106 {
     public int maxTotalFruits(int[][] fruits, int startPos, int k) {
         int minIndex = Math.max(startPos - k, 0);
@@ -19,7 +20,4 @@ public class topic_2106 {
         return result;
     }
 
-    public static void main(String[] args) {
-
-    }
 }

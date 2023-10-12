@@ -30,10 +30,6 @@ public class topic_0459 {
         return true;
     }
 
-    public static void main(String[] args) {
-        System.out.println(repeatedSubstringPattern("abcabcabc"));
-    }
-
     static class Batter {
         public boolean repeatedSubstringPattern(String s) {
             int length = s.length();

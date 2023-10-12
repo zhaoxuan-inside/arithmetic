@@ -25,8 +25,4 @@ public class topic_0121 {
         return maxn;
     }
 
-
-    public static void main(String[] args) {
-        System.out.println(batterMaxProfit(new int[]{7, 1, 5, 3, 6, 4}));
-    }
 }

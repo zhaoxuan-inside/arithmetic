@@ -67,7 +67,4 @@ public class topic_0034 {
         return result;
     }
 
-    public static void main(String[] args) {
-        fastSearchRange(new int[] {5,7,7,8,8,10}, 8);
-    }
 }

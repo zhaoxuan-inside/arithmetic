@@ -22,8 +22,4 @@ public class topic_0740 {
         return max;
     }
 
-    public static void main(String[] args) {
-        System.out.println(deleteAndEarn(new int[]{1, 1, 1, 2, 4, 5, 5, 5, 6}));
-    }
-
 }

@@ -33,7 +33,4 @@ public class topic_0228 {
         return result;
     }
 
-    public static void main(String[] args) {
-        summaryRanges(new int[]{0, 1, 2, 4, 5, 7});
-    }
 }

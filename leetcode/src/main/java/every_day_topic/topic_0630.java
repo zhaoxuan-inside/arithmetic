@@ -30,12 +30,6 @@ public class topic_0630 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(scheduleCourse(new int[][]{{1, 2}, {2, 3}}));
-        System.out.println(batter(new int[][]{{1, 2}, {2, 3}}));
-    }
-
-
     public static int batter(int[][] courses) {
         Arrays.sort(courses, Comparator.comparingInt(a -> a[1]));
 

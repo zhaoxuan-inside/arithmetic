@@ -91,7 +91,4 @@ public class topic_0013 {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(romanToInt2("LVIII"));
-    }
 }

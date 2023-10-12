@@ -17,7 +17,4 @@ public class topic_2544 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(alternateDigitSum(123));
-    }
 }

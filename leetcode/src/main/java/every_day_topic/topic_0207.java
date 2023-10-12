@@ -69,8 +69,4 @@ public class topic_0207 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(canFinish(2, new int[][]{{0, 1}}));
-    }
-
 }

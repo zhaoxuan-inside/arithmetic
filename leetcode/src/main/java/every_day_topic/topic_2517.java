@@ -45,8 +45,4 @@ public class topic_2517 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(maximumTastiness(new int[]{7,7,7,7}, 2));
-    }
-
 }

@@ -41,15 +41,4 @@ public class topic_1282 {
 
     }
 
-    public static void main(String[] args) {
-        for (List<Integer> groupThePerson : groupThePeople(new int[]{3, 3, 3, 3, 3, 1, 3})) {
-            System.out.println("groupNum:" + groupThePerson.size());
-            for (Integer thePerson : groupThePerson) {
-                System.out.print(thePerson + ",");
-            }
-
-            System.out.println();
-        }
-    }
-
 }

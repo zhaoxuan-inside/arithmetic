@@ -43,8 +43,4 @@ public class topic_0002 {
 
     }
 
-    public static void main(String[] args) {
-
-    }
-
 }

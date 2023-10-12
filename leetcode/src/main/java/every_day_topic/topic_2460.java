@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2460 {
 
     public static int[] applyOperations(int[] nums) {
@@ -25,12 +26,6 @@ public class topic_2460 {
 
         return tailZero;
 
-    }
-
-    public static void main(String[] args) {
-        for (int i : applyOperations(new int[]{847, 847, 0, 0, 0, 399, 416, 416, 879, 879, 206, 206, 206, 272})) {
-            System.out.println(i);
-        }
     }
 
 }

@@ -38,7 +38,4 @@ public class topic_1267 {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(countServers(new int[][]{{1, 0}, {1, 1}}));
-    }
 }

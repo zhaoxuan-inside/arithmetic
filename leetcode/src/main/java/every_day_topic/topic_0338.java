@@ -30,7 +30,4 @@ public class topic_0338 {
         return result;
     }
 
-    public static void main(String[] args) {
-        countBits(5);
-    }
 }

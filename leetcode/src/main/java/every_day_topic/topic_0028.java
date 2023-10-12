@@ -26,8 +26,4 @@ public class topic_0028 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(strStr("leetcode", "leeto"));
-    }
-
 }

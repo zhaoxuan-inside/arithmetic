@@ -67,9 +67,4 @@ public class topic_0022 {
         }
     }
 
-    public static void main(String[] args) {
-        generateParenthesis2(3).forEach(
-                System.out::println
-        );
-    }
 }

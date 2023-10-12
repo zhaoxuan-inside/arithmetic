@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2446 {
     public static boolean haveConflict(String[] event1, String[] event2) {
 
@@ -12,7 +13,4 @@ public class topic_2446 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(haveConflict(new String[]{"01:15", "02:00"}, new String[]{"02:00", "03:00"}));
-    }
 }

@@ -10,8 +10,4 @@ public class topic_0136 {
         return singleNum;
     }
 
-    public static void main(String[] args) {
-        singleNumber(new int[]{2, 2, 1});
-    }
-
 }

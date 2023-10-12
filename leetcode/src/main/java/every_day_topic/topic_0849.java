@@ -32,7 +32,4 @@ public class topic_0849 {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(maxDistToClosest(new int[]{0, 1}));
-    }
 }

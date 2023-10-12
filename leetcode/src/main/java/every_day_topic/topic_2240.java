@@ -1,5 +1,6 @@
 package every_day_topic;
 
+@SuppressWarnings("unused")
 public class topic_2240 {
     public static long waysToBuyPensPencils(int total, int cost1, int cost2) {
 
@@ -14,7 +15,4 @@ public class topic_2240 {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(waysToBuyPensPencils(20, 10, 5));
-    }
 }

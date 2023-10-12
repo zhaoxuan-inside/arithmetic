@@ -41,10 +41,4 @@ public class topic_0005 {
         return true;
     }
 
-    public static void main(String[] args) {
-
-        System.out.println(longestPalindrome("cbbd"));
-
-    }
-
 }
