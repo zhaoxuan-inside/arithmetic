@@ -18,7 +18,7 @@ public class topic_0228 {
                 continue;
             }
 
-            StringBuffer temp = new StringBuffer(Integer.toString(nums[low]));
+            StringBuilder temp = new StringBuilder(Integer.toString(nums[low]));
             if (low == height) {
                 result.add(String.valueOf(temp));
                 low++;
