@@ -44,9 +44,4 @@ public class compete_100077 {
 
     }
 
-    public static void main(String[] args) {
-        getWordsInLongestSubsequence(3,
-                new String[]{"bab", "dab", "cab"},
-                new int[]{1, 2, 2});
-    }
 }
