@@ -26,7 +26,4 @@ public class compete_100095 {
         return ans;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
