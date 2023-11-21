@@ -1,6 +1,11 @@
 package leetcode;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
 @SuppressWarnings("unused")
 public class topic_1488 {
@@ -49,10 +54,6 @@ public class topic_1488 {
             }
         }
         return ans;
-    }
-
-    public static void main(String[] args) {
-        avoidFlood(new int[]{1, 2, 0, 0, 2, 1});
     }
 
     public int[] faster(int[] rains) {
