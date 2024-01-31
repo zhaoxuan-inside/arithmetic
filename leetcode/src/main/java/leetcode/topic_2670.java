@@ -63,8 +63,5 @@ public class topic_2670 {
             return ans;
         }
 
-        public static void main(String[] args) {
-            distinctDifferenceArray(new int[]{1, 2, 3, 4, 5});
-        }
     }
 }
