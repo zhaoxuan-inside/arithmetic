@@ -2,7 +2,9 @@ package leetcode;
 
 @SuppressWarnings("unused")
 public class topic_0746 {
+
     public static int minCostClimbingStairs(int[] cost) {
+
         int step = cost.length + 1;
         int[] mem = new int[step];
 
