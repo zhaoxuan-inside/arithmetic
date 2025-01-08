@@ -7,39 +7,17 @@ public class topic_1137 {
 
     public static int tribonacci(int n) {
 
-        if (n < 4) {
-            switch (n) {
-                case 0:
-                    return 0;
-                case 1:
-                case 2:
-                    return 1;
-            }
+        long[] steps = new long[3];
+        steps[1] = 1;
+        steps[2] = 1;
+
+        for (int idx = 3; idx <= n; idx++) {
+            long tmp = steps[(idx - 1) % 3] + steps[(idx - 2) % 3] + steps[(idx - 3) % 3];
+            tmp = tmp % NUM;
+            steps[idx % 3] = tmp;
         }
 
-        int pre = 0;
-        int mid = 1;
-        int last = 1;
-        int tmp;
-
-        for (int i = 2; i < n; i++) {
-            tmp = pre + mid + last;
-            pre = mid;
-            mid = last;
-            last = tmp;
-        }
-        return last;
-    }
-
-    public static int batter(int n) {
-        if (n == 0) {
-            return 0;
-        }
-        if (n == 1 | n == 2) {
-            return 1;
-        }
-
-        return batter(n - 1) + batter(n - 2) + batter(n - 3);
+        return (int) steps[n % 3];
 
     }
 
