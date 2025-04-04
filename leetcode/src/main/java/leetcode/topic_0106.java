@@ -1,5 +1,7 @@
 package leetcode;
 
+import data_structure.TreeNode;
+
 public class topic_0106 {
     public static TreeNode buildTree(int[] inorder, int[] postorder) {
         TreeNode head = buildTree(postorder, 0, postorder.length, inorder, 0, inorder.length);
